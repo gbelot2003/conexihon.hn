@@ -91,10 +91,8 @@
 
   <?php if ($display_submitted): ?>
     <footer class="node__submitted">
-      <div class="picture"><?php print $user_picture; ?>
-        <span class="author"><?php print $name ; ?></span>
-      </div>
       <div class="submitted">
+        <?php print $user_picture; ?>
         <?php print $submitted; ?> <span class="section"><?php print render($content['field_tags']); ?></span>
       </div>
      

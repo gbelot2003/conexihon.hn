@@ -640,7 +640,9 @@ span.br {
 
 /* line 2, ../sass/components/_node.scss */
 article footer {
-  background-color: #D1D0DF;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   padding: 0.5rem 0 0.5rem 0.8rem;
   font-size: 7px;
   font-size: 0.7rem;
@@ -651,33 +653,22 @@ article footer {
     display: table;
     clear: both; }
   /* line 9, ../sass/components/_node.scss */
-  article footer .picture {
-    width: 49.15254%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none; }
-    /* line 13, ../sass/components/_node.scss */
-    article footer .picture .user-picture img {
+  article footer .user-picture {
+    float: left; }
+    /* line 11, ../sass/components/_node.scss */
+    article footer .user-picture img {
       width: 35px; }
-  /* line 19, ../sass/components/_node.scss */
-  article footer .submitted {
-    width: 49.15254%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-/* line 23, ../sass/components/_node.scss */
+/* line 20, ../sass/components/_node.scss */
 article .print-link {
   width: 50%;
   float: right; }
-/* line 28, ../sass/components/_node.scss */
+/* line 25, ../sass/components/_node.scss */
 article .field--type-taxonomy-term-reference {
   width: 50%; }
-/* line 33, ../sass/components/_node.scss */
+/* line 30, ../sass/components/_node.scss */
 article .field--name-field-image img {
   width: 100%; }
-/* line 38, ../sass/components/_node.scss */
+/* line 35, ../sass/components/_node.scss */
 article .field--name-body {
   margin-bottom: 2rem; }
 
