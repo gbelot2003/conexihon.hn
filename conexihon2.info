@@ -1,0 +1,40 @@
+name = conexihon2
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/conexihon2.normalize.css
+stylesheets[all][] = css/conexihon2.hacks.css
+stylesheets[all][] = css/conexihon2.styles.css
+stylesheets[all][] = css/conexihon2.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/conexihon2.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[head_right] = Head Right
+regions[navigation] = Navigation
+regions[slider] = Slider Area
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[panels_1] = Home Panels 1
+regions[panels_2] = Home Panels 2
+regions[panels_3] = Home Panels 3
+regions[panels_4] = Home Panels 4
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[content_down]  = Content Down
+regions[footer_panel_1] = Footer Panel 1
+regions[footer_panel_2] = Footer Panel 2

@@ -1,0 +1,46 @@
+/*
+Errno::ENOENT: No such file or directory - /home/ajax/www/conexihon/sites/all/themes/conexihon2/sass/layouts/home (copia)/home.layout.styles.scss
+
+Backtrace:
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:481:in `read'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:481:in `update_stylesheet'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `each'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-compass-1.1.0/lib/guard/compass.rb:140:in `perform'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-compass-1.1.0/lib/guard/compass.rb:123:in `run_on_change'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:74:in `block in run_supervised_task'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:71:in `catch'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:71:in `run_supervised_task'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:119:in `block in _run_first_task_found'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:117:in `each'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:117:in `_run_first_task_found'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:54:in `block in run_on_changes'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:150:in `block (3 levels) in _scoped_plugins'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:148:in `each'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:148:in `block (2 levels) in _scoped_plugins'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:147:in `catch'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:147:in `block in _scoped_plugins'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:145:in `each'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:145:in `_scoped_plugins'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/runner.rb:46:in `run_on_changes'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/setuper.rb:296:in `block (2 levels) in _listener_callback'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/commander.rb:108:in `block in within_preserved_state'
+<internal:prelude>:10:in `synchronize'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/commander.rb:105:in `within_preserved_state'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/guard-2.6.1/lib/guard/setuper.rb:295:in `block in _listener_callback'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'
+/home/ajax/.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/listen-2.7.11/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - /home/ajax/www/conexihon/sites/all/themes/conexihon2/sass/layouts/home (copia)/home.layout.styles.scss"; }

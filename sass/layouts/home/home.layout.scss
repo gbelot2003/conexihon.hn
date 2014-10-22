@@ -1,0 +1,84 @@
+// Import external libraries.
+
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+@import "home-slider.styles";
+@import "../../variables/**/*";
+@import "../../base/**/*";
+@import "../../abstractions/**/*";
+
+
+//*********************Layout Styles *****************************//
+
+.content_down_pre, .panel-region-first, .panel-region-secund {
+	@include clearfix;
+}
+
+/********************TABLET*******************************/
+@include breakpoint($tablet, true){
+
+	.panel-region-first{
+		@include grid-span(6,1);
+		.l-region--panels-1{
+
+		}
+
+		.l-region--panels-2{
+
+		}
+}
+
+	.panel-region-secund{
+		@include grid-span(6,7);
+		@include box-sizing();
+		.l-region--panels-3{
+
+		}
+
+		.l-region--panels-4{
+
+		}
+	}
+}
+
+
+/******************** DESKTOP *******************************/
+@include breakpoint($desktop, true){
+
+	.panel-region-first{
+		@include grid-span(6,1);
+		.l-region--panels-1{
+			@include grid-span(6,1);
+		}
+
+		.l-region--panels-2{
+			@include grid-span(6,7);
+		}
+}
+
+	.panel-region-secund{
+		@include grid-span(6,7);
+		.l-region--panels-3{
+			@include grid-span(6,1);
+		}
+
+		.l-region--panels-4{
+			@include grid-span(6,7);
+		}
+	}
+}

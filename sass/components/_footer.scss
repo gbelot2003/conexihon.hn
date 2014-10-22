@@ -1,0 +1,80 @@
+.l-main-warp {
+	margin-top: 1rem;
+}
+.l-footer-warp {
+	background-color:  rgb(229, 229, 229);
+	padding: 1rem 0 0 0;
+	padding-bottom: 3rem;
+}
+
+.l-footer {
+	@include clearfix;
+	.footer-panel {
+		@include clearfix;
+		address{
+			text-align: center;
+		}
+		.vcard div{
+			display: inline;
+		}
+
+		.street-address {
+			font-weight: 300;
+		}
+	}
+}
+
+.logos {
+	text-align: center;
+	margin: 1.5rem 0;
+	padding: 0.5rem 1rem;
+
+	a.ie{
+		@include font-size(3);
+	}
+	a{
+		color:gray;
+		text-decoration: none;
+		@include font-size(2.8);
+		@include text-shadow;
+	}
+}
+
+.licence{
+	@include clearfix;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@include breakpoint($desktop, true){
+
+	address{
+		text-align: right !important;
+	}
+
+	.adr {
+		margin-bottom: 0.6rem;
+	}
+	
+	.vcard div{
+		display: block !important;
+	}
+
+	span.br {
+		display: block;
+	}
+
+	.l-footer-panel-1{
+		@include grid-span(4,1);
+	}
+
+	.l-footer-panel-2{
+		@include grid-span(4,5);
+	}
+
+	.l-footer-panel-3{
+		@include grid-span(4, 9);
+	}
+
+	
+}

@@ -1,0 +1,36 @@
+@import "home.layout";
+
+@import "../../variables/**/*";
+@import "../../base/**/*";
+@import "../../abstractions/**/*";
+
+.content_down_pre .block, footer .block{
+
+	iframe{
+		width: 100% !important;
+	}
+
+	.fron-img {
+		img {
+			width: 100%;
+		}
+	}
+
+	.views-field-title h4 a{
+		@include font-size(1);
+		@include text-shadow();
+	}
+
+	.view-content {
+		.item-list a{
+			@include font-size(0.7);
+		}	
+	}
+}
+
+#block-aggregator-feed-1{
+	ul li a{
+		@include font-size(0.7);
+	}
+}
+

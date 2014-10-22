@@ -1,0 +1,77 @@
+// Import external libraries.
+
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+
+@import "../../variables/**/*";
+@import "../../base/**/*";
+@import "../../abstractions/**/*";
+
+
+//*********************Layout Styles *****************************//
+
+
+.pane-slidertaxonomico1{
+	@include clearfix;
+}
+
+.tax-panel-row {
+	@include clearfix;
+
+	.views-column{
+		@include clearfix;
+	}
+
+	.views-field-field-image{
+		@include grid-span(4, 1);
+	}
+
+	.views-field-body {
+		@include grid-span(8, 5);	
+	}
+}
+
+/********************SMALL TABLET*******************************/
+
+@include breakpoint($stablet, true){
+
+
+}
+
+
+/********************TABLET*******************************/
+@include breakpoint($tablet, true){
+	.views-responsive-grid {
+		.views-row-first{
+			@include grid-span(6, 1);
+		}
+
+		.views-row-last{
+			@include grid-span(6, 7);
+		}
+
+	}
+
+}
+
+
+/******************** DESKTOP *******************************/
+@include breakpoint($desktop, true){
+
+	
+}

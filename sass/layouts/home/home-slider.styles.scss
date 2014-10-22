@@ -1,0 +1,236 @@
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+@import "../../variables/**/*";
+@import "../../base/**/*";
+@import "../../abstractions/**/*";
+
+
+.l-slider-warper{
+	@include clearfix;
+}
+
+.l-slider .l-region {
+	margin-top: 0.5rem;
+	
+	#block-views-front-page-panels-block-10{
+		@include clearfix;
+		margin-top: 5rem;
+		padding: 0.4rem 0.3rem;
+		border: 1px solid rgb(203, 203, 203);
+		background-color: #CBCBCB;
+
+		.view-header {
+			img {
+				width: 100%;
+			}
+		}
+
+		.views-field-field-image {
+			img{
+				width: 100%;	
+			}
+		}
+
+		h4 {
+			text-align: center;
+			a {
+				color:rgb(80, 75, 75) !important;
+				text-decoration: none !important;	
+				@include font-size(0.9);
+				@include text-shadow();
+			}
+		}	 
+	}
+
+	.block-views-slider-block-3{
+		@include clearfix;
+		background: rgb(203, 203, 203);
+		.view-display-id-block_3{
+			position: relative;
+		}
+	}
+
+	.views_slideshow_cycle_main {
+		width: 100%;
+		float: left;
+	}
+	.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+		width: 100% !important;
+		height: auto;
+	}
+	.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+		width: 100% !important;
+		height: auto;
+	}
+	.views_slideshow_cycle_main .field-content {
+		width: 100%;
+	}
+	.views_slideshow_cycle_main .field-content img {
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		border: solid 1px;
+	}
+
+	.views-slideshow-pager-field-item {
+		display: none;
+	}
+	
+	.slider-title {
+		width: 100%;
+		position: absolute;
+		height: 48%;
+		padding: 0 0.3rem 0.5rem 0.5rem;
+		background: rgba(0,0,0,0.8);
+		h3 {
+			@include font-size(0.7);
+			a{
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+/********************SMALL TABLET*******************************/
+
+
+
+@include breakpoint($stablet, true){
+	.l-slider .l-region {
+		
+		#block-views-front-page-panels-block-10{
+			margin-top: 1rem;
+		}
+
+		.block--views-slider-block-3 {
+			.slider-title {
+				background: rgba(0,0,0,0.5);
+				min-height: 10%;
+				height: 35%;
+				padding: 0;
+				bottom: 1%;
+				h3 {
+					@include font-size(0.8);
+					padding:0 0.5rem 0 0.5rem;
+				}
+			}
+		}
+	}
+
+}
+
+
+/********************TABLET*******************************/
+
+
+
+@include breakpoint($tablet, true){
+
+	.l-slider .l-region {
+
+		#block-views-front-page-panels-block-10{
+			@include grid-span(4,9);
+			margin-top: 0 !important;
+			@include box-shadow();
+			h4 {
+				text-align:left;
+				a {
+					@include font-size(0.8);
+				}
+			}
+		}
+
+		.block--views-slider-block-3{
+			@include grid-span(8,1);
+
+			.views-slideshow-pager-field-item {
+				display: inline;
+				.views-field-field-image{
+					display: inline;
+				}
+				.views-content-field-image{
+					display: inline;
+				}		
+			}
+			
+			.slider-title {
+				background: rgba(0,0,0,0.5);
+				min-height: 10%;
+				height: 25%;
+				padding: 0;
+				bottom: 1%;
+				h3 {
+					@include font-size(0.8);
+					padding:0 0.5rem 0 0.5rem;
+				}
+			}
+		}
+	}
+}
+
+
+
+/******************** DESKTOP *******************************/
+
+@include breakpoint($desktop, true){
+	.l-slider .l-region {
+		
+		.block--block-5{
+			@include grid-span(4,9);
+		}
+
+		#block-views-front-page-panels-block-10 {
+			@include grid-span(4,9);
+			@include clearfix;
+			margin-top:0 !important;
+
+			h4 {
+				text-align:left;
+				a {
+					@include font-size(0.9);
+				}
+			}
+		}
+
+		.block--views-slider-block-3{
+			@include grid-span(8,1);
+			background:black;
+
+			.views-slideshow-pager-fields {
+				.active {
+					@include box-shadow(3px);
+				}
+
+				.views-slideshow-pager-field-item {
+					display: inline;
+					.views-field-field-image{
+						display: inline;
+					}
+					.views-content-field-image{
+						display: inline;
+					}
+					
+				}
+			}
+		}
+		
+		.slider-title {
+			background: rgba(0,0,0,0.5);
+			min-height: 10%;
+			height: 25%;
+			padding: 0;
+			bottom: 1%;
+			h3 {
+				@include font-size(0.9);
+				padding:0 0.5rem 0 0.5rem;
+			}
+		}
+	}
+	
+}

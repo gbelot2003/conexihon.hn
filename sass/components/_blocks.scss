@@ -1,0 +1,107 @@
+/**** Search autocomplete ****/
+
+.block__title, .pane-title {
+	background:#4A77AA;
+	padding: 0.3rem 0.1rem 0.3rem 0.3rem;
+	@include font-size(1);
+	@include text-shadow();
+	color:white;
+}
+
+
+#ui-theme-basic-green{
+	z-index: 99 !important;
+}
+
+/* Overlays */
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }/* Accordion
+----------------------------------*/
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; background: #4A77AA;}
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em 2.2em; color:white !important; @include text-shadow();}
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { padding: 0.5em 0.5em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+.ui-widget-content {border:none !important;}
+
+body {
+	/*background-color: #e5e0e0;*/
+}
+
+.content_down_pre .block{
+	background:white;
+	.block__content{
+		padding: 0 0.3rem 0.4rem 0.3rem;
+	}
+
+	.view-grouping {
+		margin-bottom:1rem;
+		@include box-shadow();
+		padding: 0.1rem 0.3rem;
+			.view-grouping-header {
+				display: inline;
+				float: left;
+				margin-right: 0.2rem;
+				img {
+					border:1px solid gray;
+				}
+			}
+		.view-grouping-content{
+			.view-grouping{
+				padding: none;
+				-webkit-box-shadow:none;
+				-moz-box-sizing:none;
+				box-shadow:none;
+				box-sizing:none;
+
+				.view-grouping-header{
+					display: block;
+					float: none;
+					a{
+						@include font-size(0.8);
+					}
+				}
+
+				.view-grouping-content{
+					h3{
+						margin: 0.1rem 0 0.3rem 0.1rem;
+					}
+
+					.views-row {
+						display: block;
+						@include clearfix;
+					}
+				}
+			}
+		}
+	}
+}
+
+.l-main .block, footer .block{
+
+	a {
+		text-decoration: none;
+		text-align: right;
+		@include transition(color, .5s, ease-in);
+		color:#4a77aa;
+		line-height: 0.5px;
+
+	}
+	
+	a:hover {
+		color:#c96408;
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	li {
+		list-style: none;
+		margin-bottom: 1rem;
+		border-bottom: dashed 1px gray;
+		padding: 0 0 0.5rem 0;
+	}
+
+}

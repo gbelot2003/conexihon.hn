@@ -1,0 +1,180 @@
+/* line 1, ../../../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/**********Font size***************/
+/***** Usage ***************
+
+@include font-size(1);
+
+/***********Transition****************/
+/***** Usage *************
+
+a {
+  color: gray;
+  @include transition(color .3s ease);
+  &:hover {
+    color: black;
+  }
+}
+
+/***********Opacity*******************/
+/*******************************
+
+.faded-text {
+  @include opacity(0.8);
+}
+
+/*********Visual Hidden of an elemeent************/
+/*************************************************
+<b class="visually-hidden">Open the navigation</b>
+**************************************************
+.visually-hidden {
+  @extend %visuallyhidden;
+}
+***********************/
+/**** Animation ********************************/
+/*********Usage ************************
+
+@include keyframes(slide-down) {
+  0% { opacity: 1; }
+  90% { opacity: 0; }
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  background: black;
+  @include animation('slide-down 5s 3');
+}
+*******************************************/
+/*******Emboss & Letterpress************/
+/*******Usage *************************
+.box{
+    @include box-emboss(0.8, 0.05);
+}
+***************************************/
+/*******Absolute Positioned************
+Pass in the desired location of your target element to produce all the necessary positioning code.
+*****************************************/
+/***********Usage *******************
+.abs {
+  @include abs-pos(10px, 10px, 5px, 15px);
+}
+************************************/
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-radial       - arguments: Start Color: #FFFFFF, Start position: 0%, End Color: #000000, End position: 100%
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+    -   keyframes               - arguments: Animation name
+                                - content:   Animation css
+    -   animation               - arguments: name duration timing-function delay iteration-count direction fill-mode play-state
+                                             (http://www.w3schools.com/cssref/css3_pr_animation.asp)
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+/* KEYFRAMES */
+/* ANIMATION */
+/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+.pane-slidertaxonomico1:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+.tax-panel-row:after {
+  content: "";
+  display: table;
+  clear: both; }
+/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+.tax-panel-row .views-column:after {
+  content: "";
+  display: table;
+  clear: both; }
+/* line 40, ../../../sass/layouts/content/content.layout.scss */
+.tax-panel-row .views-field-field-image {
+  width: 32.20339%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+/* line 44, ../../../sass/layouts/content/content.layout.scss */
+.tax-panel-row .views-field-body {
+  width: 66.10169%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/********************SMALL TABLET*******************************/
+/********************TABLET*******************************/
+/* line 60, ../../../sass/layouts/content/content.layout.scss */
+.views-responsive-grid .views-row-first {
+  width: 49.15254%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+/* line 64, ../../../sass/layouts/content/content.layout.scss */
+.views-responsive-grid .views-row-last {
+  width: 49.15254%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/******************** DESKTOP *******************************/
+
+/*# sourceMappingURL=content.layout.no-query.css.map */

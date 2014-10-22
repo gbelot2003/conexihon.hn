@@ -1,0 +1,69 @@
+article{
+	footer{
+		background-color: #D1D0DF;
+		padding:0.5rem 0 0.5rem 0.8rem;
+		@include clearfix;
+		@include font-size(0.7);
+		font-style: italic;
+
+		.picture{
+			@include grid-span(6,1);
+
+			.user-picture{
+				img{
+					width: 35px;
+				}	
+			}
+		}
+
+		.submitted{
+			@include grid-span(6,7);
+		}
+	}
+	.print-link {
+		width: 50%;
+		float: right;
+	}
+
+	.field--type-taxonomy-term-reference{
+		width: 50%; 
+	}
+
+	.field--name-field-image{
+		img {
+			width: 100%;
+		}
+	}
+
+	.field--name-body {
+		margin-bottom: 2rem;
+	}
+
+}
+
+
+/********************SMALL TABLET*******************************/
+
+@include breakpoint($stablet, true){
+
+	article{
+
+	}
+}
+
+
+/********************TABLET*******************************/
+@include breakpoint($tablet, true){
+
+	article{
+
+	}
+}
+
+
+/******************** DESKTOP *******************************/
+@include breakpoint($desktop, true){
+	article{
+
+	}	
+}
