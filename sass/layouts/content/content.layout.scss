@@ -26,6 +26,7 @@
 //*********************Layout Styles *****************************//
 
 
+
 .pane-slidertaxonomico1{
 	@include clearfix;
 }
@@ -56,6 +57,20 @@
 
 /********************TABLET*******************************/
 @include breakpoint($tablet, true){
+
+	.l-main{
+
+		
+		@include clearfix;
+		.l-content{
+			@include grid-span(8, 1);
+		}
+
+		.l-region--sidebar-second{
+			@include grid-span(4, 9);
+		}
+	}
+
 	.views-responsive-grid {
 		.views-row-first{
 			@include grid-span(6, 1);

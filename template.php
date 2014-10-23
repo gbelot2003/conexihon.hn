@@ -43,9 +43,6 @@ function conexion2_sub_preprocess_page(&$vars){
 function conexihon2_preprocess_node(&$variables) {
   if ($variables['submitted']) {
     	//$variables['submitted'] = t('Posted| !datetime', array( '!datetime' => format_date($variables['node']->created, 'custom', 'F j, Y')));
-  		$variables['submitted'] = t('Posted by !author | !datetime', array( 
-  															'!datetime' => format_date($variables['node']->created, 'custom', 'F j \d\e\l Y'), 
-  															'!author' => $variables['node']->name
-  															));
+  		$variables['submitted'] = t('Posted by !author | !datetime', array('!datetime' => format_date($variables['node']->created, 'custom', 'F j \d\e\l Y'), '!author' => $variables['node']->name));
   }
 }

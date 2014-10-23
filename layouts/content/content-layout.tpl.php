@@ -103,15 +103,17 @@
 <div class="l-main-warp">
   <div class="l-page">
     <div class="l-main">
-      <div class="l-content" role="main">
-        <?php print render($page['highlighted']); ?>
-        <?php print $breadcrumb; ?>
-        <a id="main-content"></a>
+      <div class="title">
         <?php print render($title_prefix); ?>
         <?php if ($title): ?>
-           <h1 class="node-title"><?php print $title; ?></h1>
+          <h1 class="node-title"><?php print $title; ?></h1>
         <?php endif; ?>
+        <?php print $breadcrumb; ?>
         <?php print render($title_suffix); ?>
+      </div>
+      <div class="l-content" role="main">
+        <?php print render($page['highlighted']); ?>
+        <a id="main-content"></a>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
         <?php print render($page['help']); ?>
@@ -120,6 +122,8 @@
         <?php endif; ?>
         <?php print render($page['content']); ?>
       </div>
+        <?php print render($page['sidebar_first']); ?>
+        <?php print render($page['sidebar_second']); ?>
     </div>
   </div>
 </div>

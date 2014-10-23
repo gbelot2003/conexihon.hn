@@ -278,6 +278,27 @@ body {
   border-bottom: dashed 1px gray;
   padding: 0 0 0.5rem 0; }
 
+/* line 2, ../sass/components/_breadcrumbs.scss */
+.breadcrumb {
+  display: block;
+  background-color: #4A77AA;
+  padding: 0.4rem 1rem; }
+  /* line 6, ../sass/components/_breadcrumbs.scss */
+  .breadcrumb li {
+    list-style: none;
+    display: inline;
+    margin-right: 0.2rem; }
+    /* line 10, ../sass/components/_breadcrumbs.scss */
+    .breadcrumb li span {
+      padding-left: 0.4rem;
+      color: white; }
+    /* line 14, ../sass/components/_breadcrumbs.scss */
+    .breadcrumb li a {
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      text-decoration: none;
+      font-style: italic; }
+
 /* line 1, ../sass/components/_footer.scss */
 .l-main-warp {
   margin-top: 1rem; }
@@ -654,21 +675,23 @@ article footer {
     clear: both; }
   /* line 9, ../sass/components/_node.scss */
   article footer .user-picture {
-    float: left; }
-    /* line 11, ../sass/components/_node.scss */
+    float: left;
+    margin-right: 0.8rem; }
+    /* line 12, ../sass/components/_node.scss */
     article footer .user-picture img {
-      width: 35px; }
-/* line 20, ../sass/components/_node.scss */
+      width: 35px;
+      height: 25px; }
+/* line 22, ../sass/components/_node.scss */
 article .print-link {
   width: 50%;
   float: right; }
-/* line 25, ../sass/components/_node.scss */
+/* line 27, ../sass/components/_node.scss */
 article .field--type-taxonomy-term-reference {
   width: 50%; }
-/* line 30, ../sass/components/_node.scss */
+/* line 32, ../sass/components/_node.scss */
 article .field--name-field-image img {
   width: 100%; }
-/* line 35, ../sass/components/_node.scss */
+/* line 37, ../sass/components/_node.scss */
 article .field--name-body {
   margin-bottom: 2rem; }
 

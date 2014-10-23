@@ -143,14 +143,14 @@ Pass in the desired location of your target element to produce all the necessary
   content: "";
   display: table;
   clear: both; }
-/* line 40, ../../../sass/layouts/content/content.layout.scss */
+/* line 41, ../../../sass/layouts/content/content.layout.scss */
 .tax-panel-row .views-field-field-image {
   width: 32.20339%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
   clear: none; }
-/* line 44, ../../../sass/layouts/content/content.layout.scss */
+/* line 45, ../../../sass/layouts/content/content.layout.scss */
 .tax-panel-row .views-field-body {
   width: 66.10169%;
   float: right;
@@ -161,14 +161,34 @@ Pass in the desired location of your target element to produce all the necessary
 /********************SMALL TABLET*******************************/
 /********************TABLET*******************************/
 @media (min-width: 40em) {
-  /* line 60, ../../../sass/layouts/content/content.layout.scss */
+  /* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  .l-main:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 65, ../../../sass/layouts/content/content.layout.scss */
+  .l-main .l-content {
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+  /* line 69, ../../../sass/layouts/content/content.layout.scss */
+  .l-main .l-region--sidebar-second {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+  /* line 75, ../../../sass/layouts/content/content.layout.scss */
   .views-responsive-grid .views-row-first {
     width: 49.15254%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none; }
-  /* line 64, ../../../sass/layouts/content/content.layout.scss */
+  /* line 79, ../../../sass/layouts/content/content.layout.scss */
   .views-responsive-grid .views-row-last {
     width: 49.15254%;
     float: right;
