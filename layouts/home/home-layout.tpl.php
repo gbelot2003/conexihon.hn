@@ -88,9 +88,9 @@
         </div>
         <div class="l-head-2"><?php print render($page['head_right']); ?>
           <div class="redes-sociales">
-            <a href="http://facebook.com" target="_black"><i class="fa-facebook"></i></a>  
-            <a href="http://twitter.com" target="_black"><i class="fa-twitter"></i></a>
-            <a href="http://youtube.com" target="_black"><i class="fa-youtube"></i></a>
+            <a href="https://www.facebook.com/conexihon?fref=ts" target="_black"><i class="fa-facebook"></i></a>  
+            <a href="https://twitter.com/conexihon" target="_black"><i class="fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCX_V7qJx4Pq7zxGXKcfddPg" target="_black"><i class="fa-youtube"></i></a>
           </div>
           
         </div>
