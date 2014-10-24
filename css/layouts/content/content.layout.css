@@ -166,29 +166,29 @@ Pass in the desired location of your target element to produce all the necessary
     content: "";
     display: table;
     clear: both; }
-  /* line 65, ../../../sass/layouts/content/content.layout.scss */
-  .l-main .l-content {
+  /* line 66, ../../../sass/layouts/content/content.layout.scss */
+  .l-main .sidebar_second .l-content {
     width: 66.10169%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none; }
-  /* line 69, ../../../sass/layouts/content/content.layout.scss */
-  .l-main .l-region--sidebar-second {
+  /* line 70, ../../../sass/layouts/content/content.layout.scss */
+  .l-main .sidebar_second .l-region--sidebar-second {
     width: 32.20339%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
 
-  /* line 75, ../../../sass/layouts/content/content.layout.scss */
+  /* line 77, ../../../sass/layouts/content/content.layout.scss */
   .views-responsive-grid .views-row-first {
     width: 49.15254%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none; }
-  /* line 79, ../../../sass/layouts/content/content.layout.scss */
+  /* line 81, ../../../sass/layouts/content/content.layout.scss */
   .views-responsive-grid .views-row-last {
     width: 49.15254%;
     float: right;

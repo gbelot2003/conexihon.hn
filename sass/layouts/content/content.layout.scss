@@ -54,21 +54,23 @@
 
 }
 
-
 /********************TABLET*******************************/
+
 @include breakpoint($tablet, true){
 
 	.l-main{
 
 		
 		@include clearfix;
-		.l-content{
+
+		.sidebar_second  .l-content{
 			@include grid-span(8, 1);
 		}
 
-		.l-region--sidebar-second{
+		.sidebar_second  .l-region--sidebar-second{
 			@include grid-span(4, 9);
 		}
+
 	}
 
 	.views-responsive-grid {
