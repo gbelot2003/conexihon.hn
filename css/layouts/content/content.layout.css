@@ -166,29 +166,34 @@ Pass in the desired location of your target element to produce all the necessary
     content: "";
     display: table;
     clear: both; }
-  /* line 66, ../../../sass/layouts/content/content.layout.scss */
-  .l-main .sidebar_second .l-content {
+
+  /* line 67, ../../../sass/layouts/content/content.layout.scss */
+  .sidebar_second .l-content {
     width: 66.10169%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
-    clear: none; }
-  /* line 70, ../../../sass/layouts/content/content.layout.scss */
-  .l-main .sidebar_second .l-region--sidebar-second {
+    clear: none;
+    border-right: 1px solid #E0E0E0;
+    padding-right: 0.5rem; }
+
+  /* line 73, ../../../sass/layouts/content/content.layout.scss */
+  .sidebar_second .l-region--sidebar-second {
     width: 32.20339%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; }
+    clear: none;
+    padding-left: 0.5rem; }
 
-  /* line 77, ../../../sass/layouts/content/content.layout.scss */
+  /* line 81, ../../../sass/layouts/content/content.layout.scss */
   .views-responsive-grid .views-row-first {
     width: 49.15254%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none; }
-  /* line 81, ../../../sass/layouts/content/content.layout.scss */
+  /* line 85, ../../../sass/layouts/content/content.layout.scss */
   .views-responsive-grid .views-row-last {
     width: 49.15254%;
     float: right;

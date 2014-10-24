@@ -59,19 +59,23 @@
 @include breakpoint($tablet, true){
 
 	.l-main{
-
 		
 		@include clearfix;
-
-		.sidebar_second  .l-content{
-			@include grid-span(8, 1);
-		}
-
-		.sidebar_second  .l-region--sidebar-second{
-			@include grid-span(4, 9);
-		}
-
+	
 	}
+
+	.sidebar_second .l-content{
+		@include grid-span(8, 1);
+		border-right: 1px solid #E0E0E0;
+		padding-right: 0.5rem;
+	}
+
+	.sidebar_second .l-region--sidebar-second{
+		@include grid-span(4, 9);
+		padding-left: 0.5rem;
+	}
+
+
 
 	.views-responsive-grid {
 		.views-row-first{
@@ -80,6 +84,7 @@
 
 		.views-row-last{
 			@include grid-span(6, 7);
+
 		}
 
 	}
