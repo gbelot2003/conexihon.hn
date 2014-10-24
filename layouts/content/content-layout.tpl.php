@@ -79,7 +79,13 @@
   
     <header class="l-header" role="banner">
       <div class="l-page">
-        <div class="l-head-1"><?php print render($page['header']); ?></div>
+        <div class="l-head-1">
+          <?php if ($logo): ?>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+          <?php endif; ?>
+          
+          <?php print render($page['header']); ?>
+        </div>
         <div class="l-head-2"><?php print render($page['head_right']); ?>
           <div class="redes-sociales">
             <a href="http://facebook.com" target="_black"><i class="fa-facebook"></i></a>  
