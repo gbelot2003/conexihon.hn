@@ -452,7 +452,7 @@ span.br {
     clear: both; }
 
 /* line 44, ../sass/components/_l-header.scss */
-#block-logo-block-logo {
+.l-head-1 {
   text-align: center; }
 
 /* line 49, ../sass/components/_l-header.scss */
@@ -619,7 +619,7 @@ span.br {
     color: transparent; }
 
 /* line 167, ../sass/components/_l-header.scss */
-#block-logo-block-logo {
+.l-head-1 {
   text-align: left; }
 
 /* line 175, ../sass/components/_l-header.scss */
@@ -688,10 +688,13 @@ article .print-link {
 /* line 27, ../sass/components/_node.scss */
 article .field--type-taxonomy-term-reference {
   width: 50%; }
-/* line 32, ../sass/components/_node.scss */
-article .field--name-field-image img {
-  width: 100%; }
-/* line 37, ../sass/components/_node.scss */
+/* line 31, ../sass/components/_node.scss */
+article .field--name-field-image {
+  margin-bottom: 1.5rem; }
+  /* line 32, ../sass/components/_node.scss */
+  article .field--name-field-image img {
+    width: 100%; }
+/* line 38, ../sass/components/_node.scss */
 article .field--name-body {
   margin-bottom: 2rem; }
 
