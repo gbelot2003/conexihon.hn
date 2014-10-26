@@ -43,6 +43,17 @@ article{
 
 .view-search-index{
 	@include font-size(0.8);
+
+	.view-empty{
+		@include box-shadow;
+		@include text-shadow;
+		@include border-radius;
+		border-color: gray;
+		padding: 2rem;
+		text-align: center;
+		@include font-size(1);
+	}
+
 	table{
 
 		margin: 1rem 0 1.5rem 0;

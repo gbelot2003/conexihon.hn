@@ -702,17 +702,31 @@ article .field--name-body {
 .view-search-index {
   font-size: 8px;
   font-size: 0.8rem; }
-  /* line 46, ../sass/components/_node.scss */
+  /* line 47, ../sass/components/_node.scss */
+  .view-search-index .view-empty {
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color: gray;
+    padding: 2rem;
+    text-align: center;
+    font-size: 10px;
+    font-size: 1rem; }
+  /* line 57, ../sass/components/_node.scss */
   .view-search-index table {
     margin: 1rem 0 1.5rem 0;
     width: 100%; }
-    /* line 51, ../sass/components/_node.scss */
+    /* line 62, ../sass/components/_node.scss */
     .view-search-index table th {
       padding: 0.5rem 0 0.5rem 0.5rem;
       background: rgba(74, 119, 170, 0.5);
       font-size: 7px;
       font-size: 0.7rem; }
-    /* line 57, ../sass/components/_node.scss */
+    /* line 68, ../sass/components/_node.scss */
     .view-search-index table th:first-child {
       -webkit-border-top-left-radius: 5px;
       -webkit-border-top-right-radius: 0;
@@ -726,7 +740,7 @@ article .field--name-body {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0; }
-    /* line 61, ../sass/components/_node.scss */
+    /* line 72, ../sass/components/_node.scss */
     .view-search-index table th:last-child {
       -webkit-border-top-left-radius: 0;
       -webkit-border-top-right-radius: 5px;
@@ -740,11 +754,11 @@ article .field--name-body {
       border-top-right-radius: 5px;
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0; }
-    /* line 65, ../sass/components/_node.scss */
+    /* line 76, ../sass/components/_node.scss */
     .view-search-index table td {
       padding: 0.5rem 0 0.5rem 0.3rem;
       min-height: 2rem; }
-      /* line 68, ../sass/components/_node.scss */
+      /* line 79, ../sass/components/_node.scss */
       .view-search-index table td a {
         text-decoration: underline;
         -moz-transition: all 0.3s ease-in;
@@ -752,40 +766,40 @@ article .field--name-body {
         -webkit-transition: all 0.3s ease-in;
         -ms-transition: all 0.3s ease-in;
         transition: all 0.3s ease-in; }
-      /* line 74, ../sass/components/_node.scss */
+      /* line 85, ../sass/components/_node.scss */
       .view-search-index table td a:hover {
         text-decoration: none;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); }
-    /* line 79, ../sass/components/_node.scss */
+    /* line 90, ../sass/components/_node.scss */
     .view-search-index table td.active {
       background: none !important;
       color: maroon;
       border-right: 1px solid black;
       border-left: 1px solid black; }
-    /* line 86, ../sass/components/_node.scss */
+    /* line 97, ../sass/components/_node.scss */
     .view-search-index table tr.odd {
       background: #EEEEEE; }
-    /* line 90, ../sass/components/_node.scss */
+    /* line 101, ../sass/components/_node.scss */
     .view-search-index table tr.even {
       background-color: white; }
-    /* line 94, ../sass/components/_node.scss */
+    /* line 105, ../sass/components/_node.scss */
     .view-search-index table td.views-field-body-value, .view-search-index table th.views-field-body-value {
       display: none; }
-  /* line 99, ../sass/components/_node.scss */
+  /* line 110, ../sass/components/_node.scss */
   .view-search-index #edit-search-api-views-fulltext {
     width: 100%; }
-  /* line 103, ../sass/components/_node.scss */
+  /* line 114, ../sass/components/_node.scss */
   .view-search-index #edit-submit-search-index {
     width: 100%;
     height: 26px;
     color: gray;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); }
-  /* line 110, ../sass/components/_node.scss */
+  /* line 121, ../sass/components/_node.scss */
   .view-search-index .views-submit-button {
     padding: .5em 1em 0 0;
     width: 100%;
     height: 43px; }
-  /* line 117, ../sass/components/_node.scss */
+  /* line 128, ../sass/components/_node.scss */
   .view-search-index #edit-search-api-views-fulltext-wrapper .description {
     font-size: 6px;
     font-size: 0.6rem;
@@ -795,7 +809,7 @@ article .field--name-body {
 /********************TABLET*******************************/
 /******************** DESKTOP *******************************/
 @media (min-width: 70em) {
-  /* line 154, ../sass/components/_node.scss */
+  /* line 165, ../sass/components/_node.scss */
   .view-search-index table td.views-field-body-value, .view-search-index table th.views-field-body-value {
     display: table-cell; } }
 /************* Videos ********************/
