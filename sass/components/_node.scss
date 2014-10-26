@@ -41,6 +41,57 @@ article{
 
 }
 
+.view-search-index{
+	table{
+		margin: 1rem 0 1.5rem 0;
+		width: 100%;
+		
+		th{
+			padding: 0.5rem 0 0.5rem 0.5rem;
+			background: rgba(74, 119, 170, 0.5);
+			@include font-size(0.8);
+		}
+
+		th:first-child {
+			@include border-radius-separate(5px, 0, 0, 0);
+		}
+
+		th:last-child {
+			@include border-radius-separate(0, 5px, 0, 0);
+		}
+
+		td {
+			padding: 0.5rem 0 0.5rem 0.3rem;
+			a{
+				text-decoration: underline;
+				@include transition(all, .3s, ease-in);
+
+			}
+
+			a:hover{
+				text-decoration: none;
+				@include text-shadow;
+			}
+		}
+		td.active{
+			background: none !important;
+			color: maroon;
+			border-right: 1px solid black;
+			border-left: 1px solid black;
+		}
+
+		tr.odd{
+			background: #EEEEEE;
+		}
+
+		tr.even{
+			background-color: white;
+		}
+	}
+}
+
+
+
 
 /********************SMALL TABLET*******************************/
 
