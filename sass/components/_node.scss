@@ -42,14 +42,16 @@ article{
 }
 
 .view-search-index{
+	@include font-size(0.8);
 	table{
+
 		margin: 1rem 0 1.5rem 0;
 		width: 100%;
 		
 		th{
 			padding: 0.5rem 0 0.5rem 0.5rem;
 			background: rgba(74, 119, 170, 0.5);
-			@include font-size(0.8);
+			@include font-size(0.7);
 		}
 
 		th:first-child {
@@ -86,6 +88,13 @@ article{
 
 		tr.even{
 			background-color: white;
+		}
+	}
+
+	#edit-search-api-views-fulltext-wrapper{
+		.description {
+			@include font-size(0.7);
+			@include text-shadow;
 		}
 	}
 }
