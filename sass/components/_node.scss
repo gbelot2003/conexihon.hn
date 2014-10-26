@@ -44,6 +44,7 @@ article{
 .view-search-index{
 	@include font-size(0.8);
 
+
 	.view-empty{
 		@include box-shadow;
 		@include text-shadow;
@@ -52,6 +53,7 @@ article{
 		padding: 2rem;
 		text-align: center;
 		@include font-size(1);
+		margin: 3rem 0 3rem 0;
 	}
 
 	table{
@@ -125,6 +127,7 @@ article{
 	}
 
 	#edit-search-api-views-fulltext-wrapper{
+		width: 100%;
 		.description {
 			@include font-size(0.6);
 			@include text-shadow;
