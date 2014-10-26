@@ -89,6 +89,10 @@ article{
 		tr.even{
 			background-color: white;
 		}
+
+		td.views-field-body-value{
+			display: none;
+		}
 	}
 
 	#edit-search-api-views-fulltext-wrapper{
@@ -117,6 +121,14 @@ article{
 
 	article{
 
+	}
+
+	.view-search-index{
+		table{
+			td.views-field-body-value{
+				display: visible;
+			}
+		}
 	}
 }
 
