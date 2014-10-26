@@ -90,7 +90,7 @@ article{
 			background-color: white;
 		}
 
-		td.views-field-body-value{
+		td.views-field-body-value, th.views-field-body-value{
 			display: none;
 		}
 	}
@@ -125,8 +125,8 @@ article{
 
 	.view-search-index{
 		table{
-			td.views-field-body-value{
-				display: visible;
+			td.views-field-body-value, th.views-field-body-value{
+				display: table-row;
 			}
 		}
 	}

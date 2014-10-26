@@ -768,7 +768,7 @@ article .field--name-body {
     .view-search-index table tr.even {
       background-color: white; }
     /* line 93, ../sass/components/_node.scss */
-    .view-search-index table td.views-field-body-value {
+    .view-search-index table td.views-field-body-value, .view-search-index table th.views-field-body-value {
       display: none; }
   /* line 99, ../sass/components/_node.scss */
   .view-search-index #edit-search-api-views-fulltext-wrapper .description {
@@ -779,8 +779,8 @@ article .field--name-body {
 /********************SMALL TABLET*******************************/
 /********************TABLET*******************************/
 /* line 128, ../sass/components/_node.scss */
-.view-search-index table td.views-field-body-value {
-  display: visible; }
+.view-search-index table td.views-field-body-value, .view-search-index table th.views-field-body-value {
+  display: table-row; }
 
 /******************** DESKTOP *******************************/
 /************* Videos ********************/
