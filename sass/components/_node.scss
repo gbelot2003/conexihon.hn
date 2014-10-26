@@ -64,6 +64,7 @@ article{
 
 		td {
 			padding: 0.5rem 0 0.5rem 0.3rem;
+			min-height: 2rem;
 			a{
 				text-decoration: underline;
 				@include transition(all, .3s, ease-in);
@@ -95,9 +96,26 @@ article{
 		}
 	}
 
+	#edit-search-api-views-fulltext {
+		width: 100%;
+	}
+
+	#edit-submit-search-index{
+		width: 100%;
+		height: 26px;
+		color:gray;
+		@include text-shadow;
+	}
+
+	.views-submit-button{
+		padding: .5em 1em 0 0;
+		width: 100%;
+		height: 43px;
+	}
+
 	#edit-search-api-views-fulltext-wrapper{
 		.description {
-			@include font-size(0.7);
+			@include font-size(0.6);
 			@include text-shadow;
 		}
 	}
@@ -123,13 +141,6 @@ article{
 
 	}
 
-	.view-search-index{
-		table{
-			td.views-field-body-value, th.views-field-body-value{
-				display: table-row;
-			}
-		}
-	}
 }
 
 
@@ -137,5 +148,12 @@ article{
 @include breakpoint($desktop, true){
 	article{
 
+	}
+	.view-search-index{
+		table{
+			td.views-field-body-value, th.views-field-body-value{
+				display: table-cell;
+			}
+		}
 	}	
 }
