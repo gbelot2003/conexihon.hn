@@ -248,7 +248,7 @@ body {
       /* line 71, ../sass/components/_blocks.scss */
       .content_down_pre .block .view-grouping .view-grouping-content .view-grouping .view-grouping-content .views-row {
         display: block; }
-        /* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+        /* line 13, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
         .content_down_pre .block .view-grouping .view-grouping-content .view-grouping .view-grouping-content .views-row:after {
           content: "";
           display: table;
@@ -309,12 +309,12 @@ body {
   padding: 1rem 0 0 0;
   padding-bottom: 3rem; }
 
-/* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .l-footer:after {
   content: "";
   display: table;
   clear: both; }
-/* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .l-footer .footer-panel:after {
   content: "";
   display: table;
@@ -350,7 +350,7 @@ body {
 .licence {
   margin: 0 auto;
   text-align: center; }
-  /* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
   .licence:after {
     content: "";
     display: table;
@@ -431,7 +431,7 @@ span.br {
   .redes-sociales a:hover {
     color: #4A77AA; }
 
-/* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .l-branding:after, .l-region--header:after {
   content: "";
   display: table;
@@ -445,7 +445,7 @@ span.br {
 /* line 39, ../sass/components/_l-header.scss */
 .l-header-warp {
   margin-bottom: 1rem; }
-  /* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
   .l-header-warp:after {
     content: "";
     display: table;
@@ -489,7 +489,7 @@ span.br {
 #block-search-form {
   padding: 0.8rem 0;
   background-color: gray; }
-  /* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
   #block-search-form:after {
     content: "";
     display: table;
@@ -668,7 +668,7 @@ article footer {
   font-size: 7px;
   font-size: 0.7rem;
   font-style: italic; }
-  /* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+  /* line 13, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
   article footer:after {
     content: "";
     display: table;

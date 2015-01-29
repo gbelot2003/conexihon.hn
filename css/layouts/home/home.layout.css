@@ -127,7 +127,7 @@ Pass in the desired location of your target element to produce all the necessary
 /* TRIPLE BORDERS */
 /* KEYFRAMES */
 /* ANIMATION */
-/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .l-slider-warper:after {
   content: "";
   display: table;
@@ -142,7 +142,7 @@ Pass in the desired location of your target element to produce all the necessary
     padding: 0.4rem 0.3rem;
     border: 1px solid #cbcbcb;
     background-color: #CBCBCB; }
-    /* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+    /* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
     .l-slider .l-region #block-views-front-page-panels-block-10:after {
       content: "";
       display: table;
@@ -166,7 +166,7 @@ Pass in the desired location of your target element to produce all the necessary
   /* line 47, ../../../sass/layouts/home/home-slider.styles.scss */
   .l-slider .l-region .block-views-slider-block-3 {
     background: #cbcbcb; }
-    /* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+    /* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
     .l-slider .l-region .block-views-slider-block-3:after {
       content: "";
       display: table;
@@ -209,8 +209,8 @@ Pass in the desired location of your target element to produce all the necessary
     background: rgba(0, 0, 0, 0.8); }
     /* line 89, ../../../sass/layouts/home/home-slider.styles.scss */
     .l-slider .l-region .slider-title h3 {
-      font-size: 7px;
-      font-size: 0.7rem; }
+      font-size: 8px;
+      font-size: 0.8rem; }
       /* line 91, ../../../sass/layouts/home/home-slider.styles.scss */
       .l-slider .l-region .slider-title h3 a {
         color: white;
@@ -298,7 +298,7 @@ Pass in the desired location of your target element to produce all the necessary
     margin-right: 0;
     clear: none;
     margin-top: 0 !important; }
-    /* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+    /* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
     .l-slider .l-region #block-views-front-page-panels-block-10:after {
       content: "";
       display: table;
@@ -341,9 +341,13 @@ Pass in the desired location of your target element to produce all the necessary
     bottom: 1%; }
     /* line 229, ../../../sass/layouts/home/home-slider.styles.scss */
     .l-slider .l-region .slider-title h3 {
-      font-size: 9px;
-      font-size: 0.9rem;
-      padding: 0 0.5rem 0 0.5rem; } }
+      font-size: 12px;
+      font-size: 1.2rem;
+      padding: 0 0.5rem 0 0.5rem; }
+      /* line 232, ../../../sass/layouts/home/home-slider.styles.scss */
+      .l-slider .l-region .slider-title h3 a {
+        font-size: 12px;
+        font-size: 1.2rem; } }
 /* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
@@ -473,7 +477,7 @@ Pass in the desired location of your target element to produce all the necessary
 /* TRIPLE BORDERS */
 /* KEYFRAMES */
 /* ANIMATION */
-/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .content_down_pre:after, .panel-region-first:after, .panel-region-secund:after {
   content: "";
   display: table;

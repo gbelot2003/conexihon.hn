@@ -127,18 +127,18 @@ Pass in the desired location of your target element to produce all the necessary
 /* TRIPLE BORDERS */
 /* KEYFRAMES */
 /* ANIMATION */
-/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .pane-slidertaxonomico1:after {
   content: "";
   display: table;
   clear: both; }
 
-/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .tax-panel-row:after {
   content: "";
   display: table;
   clear: both; }
-/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .tax-panel-row .views-column:after {
   content: "";
   display: table;
@@ -160,7 +160,7 @@ Pass in the desired location of your target element to produce all the necessary
 
 /********************SMALL TABLET*******************************/
 /********************TABLET*******************************/
-/* line 13, ../../../../../../../../../.rvm/gems/ruby-1.9.3-p547@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
+/* line 13, ../../../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551@omega.conexihon2/gems/toolkit-2.6.0/stylesheets/toolkit/_clearfix.scss */
 .l-main:after {
   content: "";
   display: table;
