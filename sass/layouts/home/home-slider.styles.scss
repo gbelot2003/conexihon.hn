@@ -87,7 +87,7 @@
 		padding: 0 0.3rem 0.5rem 0.5rem;
 		background: rgba(0,0,0,0.8);
 		h3 {
-			@include font-size(1);
+			@include font-size(0.8);
 			a{
 				color: white;
 				text-decoration: none;
@@ -227,8 +227,11 @@
 			padding: 0;
 			bottom: 1%;
 			h3 {
-				@include font-size(0.9);
+				@include font-size(1.2);
 				padding:0 0.5rem 0 0.5rem;
+                                a{
+                                  @include font-size(1.2);
+                                 }
 			}
 		}
 	}
